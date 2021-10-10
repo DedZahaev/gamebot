@@ -3,11 +3,6 @@ const isNumber = function (num) {
     return !isNaN(parseFloat(num) && isFinite(num));
 }
 
-const nullcheck = function (num) {
-    if (num === null) {
-        return 0;
-    }
-}
 
 function number(x, y) {
     function ask1() {
